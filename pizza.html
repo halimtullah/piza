@@ -4,46 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="/css/styles.css" type="css/text" rel="stysheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <title> Solo-Pizza</title>
 </head>
-<body>
+<body bgcolor="sky blue">
     
-    <h1 style="color: blueviolet;">Solo-Pizza</h1>
+    <h1 style="color: rgb(41, 43, 172)">Solo-Pizza</h1>
+    <h2>Please Post Your Orders</h2>
     
 
     <form>
-        <p><label>Customer name: <input id="a" required type="text" placeholder="name"</label></p>
-        <p><label>Telephone: <input id="b" required type="number" placeholder="Phone" </label></p>
-        <p><label>Email: <input id="c" required type="email" placeholder="Email"</label></p>
+        <h3><label>Customer name: <input id="a" required type="text" placeholder="name"</label></h3>
+        <h3><label>Telephone: <input id="b" required type="number" placeholder="Phone" </label></h3>
+        <h3><label>Email: <input id="c" required type="email" placeholder="Email" </label></h3>
         <fieldset width="500">
             <legend style="color: red;"><h2>Pizza Size</h2></legend>
-            <p><label><input type="radio" name="size" id="d" value="small">Small</label><input </p>
-            <p><label><input type="radio" name="size" id="e" value="medium">Medium</label><input </p>
-            <p><label><input type="radio" name="size" id="f" value="large">Large</label><input </p>
+            <h4><label><input type="radio" name="size" id="d" value="small">Small</label> </h4>
+            <h4><label><input type="radio" name="size" id="e" value="medium">Medium</label> </h4>
+            <h4><label><input type="radio" name="size" id="f" value="large">Large</label></h4>
         
         </fieldset>
-    <fieldset width="400">
+    <fieldset width="500">
         <legend style="color: red;"><h2>Pizza Toppings</h2></legend>
-        <p><label><input type="checkbox" name="a" id="g" required value="Beef-Peperoni">Beef-Peperoni</label></p>
-        <p><label><input type="checkbox" name="b" id="h" required value="Chicken-Tikka">Chicken-Tikka</label></p>
-        <p><label><input type="checkbox" name="c" id="i" required value="BBQ-Chicken">BBQ-Chicken</label></p>
-        <p><label><input type="checkbox" name="d" id="j" required value="Mozzerela-cheese">Mozzerela-cheese</label></p>
+        <h4><label><input type="checkbox" name="a" id="g" required value="Beef-Peperoni">Beef-Peperoni</label></h4>
+        <h4><label><input type="checkbox" name="b" id="h" required value="Chicken-Tikka">Chicken-Tikka</label></h4>
+        <h4><label><input type="checkbox" name="c" id="i" required value="BBQ-Chicken">BBQ-Chicken</label></h4>
+        <h4><label><input type="checkbox" name="d" id="j" required value="Mozzerela-cheese">Mozzerela-cheese</label></h4>
+        <img src="image/beef-piza.jpg" width="10%" height="20%" class="center-left"><img src="/image/chicken-tikka.jpg" class="center-left" width="10%"><img src="/image/Bbq-chicken.jpg" class="center-left" width="10%" height="10%">
+        <img src="/image/pizza-img.jpeg" width="20%" height="0%" class="center-2"> 
     </fieldset> 
     
-    <p><label style="font-size: larger;">Preferred delivery time: <input type="time" min="10:00" max="20:00" step="60" id="pdt"></label></p>
-    <p><label style="font-size: larger;"> Delivery Instructions: <textarea maxlength="10"></textarea></label></p>
-    <p><label style="font-size: larger;"> No. Of Pieces:  <input type="number" id="k"></p>
-        <p id="or"><input type="button" value="Process order" style="background-color: chartreuse; font-size: large;" onclick="check();addBtn();"/>
+    <h4><label style="font-size: larger;">Preferred delivery time: <input type="time" min="10:00" max="20:00" step="60" class="pdt"></label></h4>
+    <h4><label style="font-size: larger;"> Delivery Instructions: <textarea maxlength="10"></textarea></label></h4>
+    <h4><label style="font-size: larger;"> No. Of Pieces:  <input type="number" id="k"></h4>
+        <p id="or"><input type="button" value="Process Your Order" style="background-color: chartreuse; font-size: large;" onclick="check();addBtn();"/>
+            <br>
             <br>
         <input type="reset" id="cl" value="Clear" style="color: black;background-color: crimson; font-size: large;"></p>
+        <br>
+        <br>
+        <h2><a href="/pitza.html" class="center-left"> Check your Order</a></h2>
+        <br>
+        <br>
+        
 
-        
-    
-
-        
-        
 
     </form>
     
